@@ -126,7 +126,7 @@ ul li:before {
     width: 1100px;
     height: 200px;
     background-image: url(../images/watch.png);
-    margin-left: 150px;
+    margin-left: 200px;
     margin-top: 120px;
     border-radius: 5px;
 }
@@ -150,9 +150,7 @@ ul li:before {
     color:orangered;
     background-color: white;
 }
-.banner-box::before{
-    color: #F15B22;
-}
+
 footer{
     background-color: #151414;
     width: 100%;
