@@ -3,7 +3,7 @@
     padding: 5px;
     
 }
-   
+   /* main header style start */
 header{
     
     background-image: url(../images/banner/banner1.png);
@@ -43,6 +43,7 @@ header{
     font-weight: 600;
     font-size: 20px;
 }
+/* section-1 style-start */
 .main-section{
     display: flex;
 }
@@ -67,8 +68,9 @@ ul li:before {
     list-style: none;
     color: hsl(0, 1%, 26%);
   }
+  /* section-1 style-stop */
 
-  /* scetion ver style */
+  /* scetion ver style start*/
 
 .section-whole{
     display: flex;
@@ -91,9 +93,14 @@ ul li:before {
 }
 .section-whole{
     align-items: center;
-    margin-left: 50%;
+    margin-left: 48%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: large;
 }
-/* section image style */
+/* section var style stop */
+
+/* section-2 style start*/
 
 .imgsect{
     gap: 30px;
@@ -102,14 +109,7 @@ ul li:before {
     
     
 }
-.sectionheader{
-    color: #151414;
-    font-weight: 700;
-    font-size: 30px;
-    font-family: 'Work Sans';
-    font-style: normal;
-    margin-left: 5px;
-}
+
 .whole-img-sect p{
     color: #737272;
     
@@ -120,17 +120,19 @@ ul li:before {
     font-weight: 550;
     font-size: 25px;
 }
-/* banner box section */
+/* section-2 style stop */
+
+/* section-3 style start */
 
 .banner-box{
     width: 1100px;
     height: 200px;
-    background-image: url(../images/watch.png);
+    background-image:linear-gradient(to left, rgba(255, 208, 0, 0), rgb(255, 115, 0)), url(../images/watch.png);
     margin-left: 160px;
     margin-top: 120px;
     border-radius: 5px;
+    
 }
-/* banner section style */
 
 .banner-des{
     margin-top: 50px;
@@ -150,6 +152,9 @@ ul li:before {
     color:orangered;
     background-color: white;
 }
+/* section-3 style stop */
+
+/* footer style start */
 
 footer{
     background-color: #151414;
@@ -186,6 +191,7 @@ footer{
 .footer-subscription input{
     width: 200px;
 }
+/* footer style-stop */
 
 
     
